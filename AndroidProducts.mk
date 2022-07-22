@@ -5,4 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RMX1971.mk
+    $(LOCAL_DIR)/havoc_RMX1971.mk
+
+COMMON_LUNCH_CHOICES := \
+    havoc_RMX1971-userdebug
